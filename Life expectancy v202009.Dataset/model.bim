@@ -16807,8 +16807,8 @@
           {
             "name": "GDPT",
             "expression": [
-              "",
-              "var LatestYearWithGDP = LASTNONBLANK(ALL(Years[Years]), [GDP Per Capita (USD)])",
+              "\r",
+              "var LatestYearWithGDP = LASTNONBLANK(ALL(Years[Years]), [GDP Per Capita (USD)])\r",
               "return CALCULATE([GDP Per Capita (USD)], LatestYearWithGDP)"
             ],
             "formatString": "0",
